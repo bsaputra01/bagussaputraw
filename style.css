@@ -1,0 +1,391 @@
+html{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+header{
+    background-image: url("gambar.png");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid;
+    transition: 0.6s;
+    margin-top: 10px;
+}
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+.logo img{
+    float: left;
+    margin-top: -11%;
+    margin-left: -23%;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;  
+}
+.title{
+    position: absolute;
+    top: 30%;
+    left: 36%;
+    transform: translate(-50%;-50%);
+}
+.title h1{
+    font-family: 'Alex Brush', cursive;
+    color: white;
+    font-size: 70px;
+    transition: 0.6s ease;
+}
+.button{
+    position: absolute;
+    top: 55%;
+    left: 37%;
+    transform: translate(-50%;-50%);
+}
+.btn1{
+    border: 1px solid;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 5px;
+    margin: 10px;
+}
+.btn1:hover{
+    background: white;
+    color: black;
+}
+.btn2{
+    border: 1px solid;
+    padding: 10px 50px;
+    color: white;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 5px;
+}
+.btn2:hover{
+    background-color: white;
+    color: black;
+}
+.about {
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    font-family: 'Alex Brush', cursive;
+    font-size: 40px;
+    color: red;
+}
+.myfoto img{
+    float: left;
+    margin-top: 10%;
+    width: 400px;
+    height: 500px;
+    margin-left: 2%;
+}
+.penjelasanabout{
+    color: white;
+    float: right;
+    padding-left: 700px;
+    margin-right: 5%;
+    margin-top: -30%;
+    line-height: 100px;
+    font-family: 'Leckerli One', cursive;
+}
+.penjelasanabout h3{
+    color: white;
+}
+.footer{
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:60px;  
+    color: white;
+    text-align: center;
+}
+.titlecontact{
+    position: absolute;
+    font-family: sans-serif;
+    top: 40%;
+    left: 41%;
+    color: white;
+    border: 1px solid;
+    padding: 10px 50px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 20px;
+}
+
+.gambar1 img{
+    width: 170px;
+    height: auto;
+    margin-top: 60%;
+    margin-left: 10%;
+    transition: 0.6s ease;
+}
+.gambar2 img{
+    width: 190px;
+    height: auto;
+    margin-left: 44%;
+    margin-top: -11%;
+    transition: 0.6s ease;
+}
+.gambar5 img{
+    width: 170px;
+    height: auto;
+    margin-left: 75%;
+    margin-top: -11%;
+    transition: 0.6s ease;
+}
+.title1 {
+    position: absolute;
+    font-family: sans-serif;
+    top: 40%;
+    left: 41%;
+    color: white;
+    border: 1px solid;
+    padding: 10px 50px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 20px;
+}
+.tulisan2 {
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 102%;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.nwwe {
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin-top: 10%;
+    font-family: 'Frijole', cursive;
+}
+.logowwe img{
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+.tulisanpenjelasan h1{
+    color: red;
+    margin-top: 11%;
+    margin-left: 4%;
+    font-family: 'Fondamento', cursive;
+    font-size: 50px;
+}
+.tulisanpenjelasan h2{
+    color: white;
+    margin-top: 6%;
+    font-size: 30px;
+    margin-left: 700px;
+    line-height: 50px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+.fotowwe img{
+    width: 600px;
+    margin-top: -23%;
+}
+.judul1{
+    color: red;
+    margin-top: 7%;
+    margin-right: 6%;
+    float: right;
+    font-size: 40px;
+    font-family: 'Fondamento', cursive;
+}
+.tulisanpenjelasan1 {
+    color: white;
+    margin-top: 21%;
+    line-height: 50px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+.tulisanpenjelasan1 p{
+    color: red;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 10%;
+    font-family: 'Audiowide', cursive;
+}
+.gambarwwe img{
+    width: 900px;
+    margin-left: 18%;
+    padding: 60px;
+}
+.judul2 h1{
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    margin-top: 10%;
+    font-family: 'Bubblegum Sans', cursive;
+}
+.videowwe{
+    margin-top: 10%;
+    margin-left: 30%;
+    width: auto;
+}
+.judul3 h1{
+    color: red;
+    font-family: 'Frijole', cursive;
+}
+.tulisanpenjelasan3 h2{
+    color: white;
+    text-align: center;
+    line-height: 49px;
+    font-family: 'Bubblegum Sans', cursive;
+}
+.danger img{
+    width: 890px;
+    margin-top: 12%;
+    margin-left: 21%;
+}
+.titleproject{
+    position: absolute;
+    font-family: sans-serif;
+    top: 40%;
+    left: 41%;
+    color: white;
+    border: 1px solid;
+    padding: 10px 50px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 20px;
+}
+.tulisanmyproject {
+    color: white;
+    font-size: 10px;
+    margin-top: 10%;
+    background-color: black;
+    text-align: center;
+    height: 30px;
+}
+.video {
+    margin-left: 31%;
+    margin-top: 10%;
+}
+.video1{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+.titlegallery {
+    position: absolute;
+    font-family: sans-serif;
+    top: 40%;
+    left: 41%;
+    color: white;
+    border: 1px solid;
+    padding: 10px 50px;
+    text-decoration: none;
+    transition: 0.6s ease;
+    border-radius: 20px;
+}
+.fotoku img{
+    height: 330px;
+    width: 330px;
+    margin-top: 10%;
+    margin-left: 5%;
+    padding-right: 16%;
+    padding-left: 5%;
+}
+.fotoku1 img{
+    width: 1000px;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+label{
+    color: white;
+}
+@media screen and (max-width: 720px) {
+    html{
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+        font-family: sans-serif;
+    }
+    header{
+        background-image: url("gambar.png");
+        background-size: cover;
+        height: 100vh;
+        background-position: center;
+    }
+    ul{
+        float: right;
+        list-style-type: none;
+        margin-top: 25px;
+    }
+    ul li{
+        display: inline-block;
+    }
+    ul li a{
+        text-decoration: none;
+        color: white;
+        padding: 5px 20px;
+        border: 1px solid;
+        transition: 0.6s;
+        margin-top: 10px;
+    }
+    ul li a:hover{
+        background-color: white;
+        color: black;
+    }
+    ul li.active a{
+        background-color: white;
+        color: black;
+}
+.gambar1 img{
+    width: 80px;
+    height: auto;
+    margin-top: -80%;
+    margin-left: 5%;
+    transition: 0.6s ease;
+}
+.gambar2 img{
+    width: 170px;
+    height: auto;
+    margin-left: 24%;
+    margin-top: -11%;
+    transition: 0.6s ease;
+}
+.gambar3 img{
+    width: 185px;
+    height: auto;
+    margin-left: 40%;
+    margin-top: -12%;
+    transition: 0.6s ease;
+}
+.gambar4 img {
+    width: 170px;
+    height: auto;
+    margin-left: 58%;
+    margin-top: -11%;
+    transition: 0.6s ease;
+}
+.gambar5 img{
+    width: 170px;
+    height: auto;
+    margin-left: 75%;
+    margin-top: -11%;
+    transition: 0.6s ease;
+}
